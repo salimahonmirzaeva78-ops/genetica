@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GENETICA — irsiyat, genetika va Mendel qonunlarini o'rganish platformasi.">
+    <title>GENETICA | Irsiyat Ilmi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" id="loader">
+    <div class="loader-dna">🧬</div>
+    <h2>GENETICA</h2>
+    <p>Ilm olamiga xush kelibsiz...</p>
+</div>
+
+<div class="progress-line" id="progressLine"></div>
+
+<header class="header">
+    <a href="#home" class="logo">
+        <span class="logo-icon">🧬</span>
+        <span>GENET<span class="accent">ICA</span></span>
+    </a>
+
+    <nav class="nav" id="nav">
+        <a href="#home" class="nav-link active">Bosh sahifa</a>
+        <a href="#about" class="nav-link">Genetika</a>
+        <a href="#laws" class="nav-link">Qonunlar</a>
+        <a href="#dna" class="nav-link">DNK</a>
+        <a href="#lab" class="nav-link">Laboratoriya</a>
+        <a href="#quiz" class="nav-link">Test</a>
+    </nav>
+
+    <div class="header-actions">
+        <button class="icon-btn" id="themeBtn" aria-label="Mavzuni almashtirish">☀</button>
+        <button class="menu-btn" id="menuBtn" aria-label="Menyu">☰</button>
+    </div>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+            <div class="eyebrow"><span class="pulse"></span> BIOLOGIYANING ENG QIZIQARLI OLAMI</div>
+            <h1>Hayotning sirlarini<br> <span class="gradient-text">Genetika orqali</span><br>kashf eting.</h1>
+            <p class="hero-description">
+                Har bir tirik organizmning o'ziga xos xususiyatlari,
+                avloddan avlodga o'tadigan belgilar va DNKning
+                ajoyib dunyosini biz bilan o'rganing.
+            </p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">O'rganishni boshlash <span>→</span></a>
+                <a href="#laws" class="btn btn-outline">Qonunlarni ko'rish</a>
+            </div>
+            <div class="hero-stats">
+                <div><strong>1865</strong><span>Mendel tadqiqotlari</span></div>
+                <div><strong>46</strong><span>Inson xromosomalari</span></div>
+                <div><strong>~3 mlrd</strong><span>DNK asos juftlari</span></div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="dna-art">
+                <div class="dna-strand">🧬</div>
+                <div class="floating-card card-a">A <span>ADENIN</span></div>
+                <div class="floating-card card-t">T <span>TIMIN</span></div>
+                <div class="floating-card card-g">G <span>GUANIN</span></div>
+                <div class="floating-card card-c">C <span>SITOZIN</span></div>
+            </div>
+            <div class="visual-caption">THE BLUEPRINT OF LIFE</div>
+        </div>
+        <a href="#about" class="scroll-down">PASTGA O'TING <span>↓</span></a>
+    </section>
+
+    <section class="section intro-section" id="about">
+        <div class="section-label">01 — GENETIKA ASOSLARI</div>
+        <div class="section-heading">
+            <div>
+                <h2>Genetika nima?</h2>
+                <p class="section-subtitle">Hayotning avlodlar o'rtasidagi bog'liqligini o'rganamiz.</p>
+            </div>
+            <span class="heading-decoration">01</span>
+        </div>
+
+        <div class="intro-grid">
+            <div class="intro-main">
+                <span class="big-letter">G</span>
+                <p><strong>Genetika</strong> — organizmlarning irsiyati va o'zgaruvchanligini o'rganadigan biologiya fanining muhim bo'limidir. U tirik organizmlarning belgilari qanday saqlanishi, qanday o'zgarishi va avlodlarga qanday uzatilishini o'rganadi.</p>
+                <p>Irsiyat tufayli farzandlar ota-onalariga o'xshash xususiyatlarga ega bo'ladi. O'zgaruvchanlik esa bir turga mansub organizmlar orasidagi farqlarni yuzaga keltiradi.</p>
+                <div class="quote-box">"Har bir tirik organizm o'z tarixini genetik axborotida saqlaydi."</div>
+            </div>
+            <div class="concept-cards">
+                <article class="concept-card">
+                    <span class="concept-icon">🧬</span>
+                    <h3>Irsiyat</h3>
+                    <p>Belgilar va xususiyatlarning ota-onadan avlodga o'tish jarayoni.</p>
+                </article>
+                <article class="concept-card">
+                    <span class="concept-icon">🔬</span>
+                    <h3>O'zgaruvchanlik</h3>
+                    <p>Organizmlarda yangi belgilar va farqlarning paydo bo'lish xususiyati.</p>
+                </article>
+                <article class="concept-card">
+                    <span class="concept-icon">🧫</span>
+                    <h3>Gen</h3>
+                    <p>Muayyan funksional mahsulotni kodlaydigan DNKning bir qismi.</p>
+                </article>
+                <article class="concept-card">
+                    <span class="concept-icon">🧪</span>
+                    <h3>Allellar</h3>
+                    <p>Bir genning muqobil shakllari.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section history-section">
+        <div class="section-label">02 — ILM TARIXI</div>
+        <h2>Genetika qanday rivojlangan?</h2>
+        <p class="section-subtitle">Buyuk kashfiyotlar va ilmiy burilishlar.</p>
+        <div class="timeline">
+            <article class="timeline-item">
+                <span class="timeline-year">1865</span>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Gregor Mendel</h3>
+                    <p>No'xat o'simliklari ustida tajribalar o'tkazib, irsiyatning asosiy qonuniyatlarini ta'riflagan.</p>
+                </div>
+            </article>
+            <article class="timeline-item">
+                <span class="timeline-year">1900</span>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Mendel qonunlarining qayta kashf etilishi</h3>
+                    <p>Hugo de Vries, Carl Correns va Erich von Tschermak Mendel ishlariga e'tiborni qayta qaratdilar.</p>
+                </div>
+            </article>
+            <article class="timeline-item">
+                <span class="timeline-year">1953</span>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>DNK tuzilishi</h3>
+                    <p>DNKning qo'sh spiral modeli Watson va Crick tomonidan taqdim etildi; Franklin va Wilkins tadqiqotlari ham muhim rol o'ynadi.</p>
+                </div>
+            </article>
+            <article class="timeline-item">
+                <span class="timeline-year">2003</span>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Inson genomi loyihasi</h3>
+                    <p>Inson genomini o'qish bo'yicha asosiy loyiha yakunlangan deb e'lon qilindi.</p>
+                </div>
+            </article>
+            <article class="timeline-item">
+                <span class="timeline-year">2012</span>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>CRISPR-Cas9</h3>
+                    <p>Genomni tahrirlash texnologiyasining rivojlanishida katta burilish yuz berdi.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section laws-section" id="laws">
+        <div class="section-label">03 — MENDEL QONUNLARI</div>
+        <div class="section-heading">
+            <div>
+                <h2>Irsiyatning uch asosiy qonuni</h2>
+                <p class="section-subtitle">Klassik genetikaning fundamental tamoyillari.</p>
+            </div>
+            <span class="heading-decoration">03</span>
+        </div>
+
+        <div class="law-grid">
+            <article class="law-card">
+                <div class="law-number">01</div>
+                <div class="law-icon">🌱</div>
+                <span class="law-tag">F1 AVLOD</span>
+                <h3>Birinchi avlodning bir xillik qonuni</h3>
+                <p>Bir-biridan bir juft qarama-qarshi belgi bilan farq qiladigan, gomozigotali ota-ona organizmlari chatishtirilganda, F1 avlod bir xil genotipga va to'liq dominantlik holatida bir xil fenotipga ega bo'ladi.</p>
+                <div class="formula">AA × aa → 100% Aa</div>
+                <button class="text-btn" data-modal="law1">Batafsil o'rganish →</button>
+            </article>
+            <article class="law-card featured-law">
+                <div class="law-number">02</div>
+                <div class="law-icon">🌿</div>
+                <span class="law-tag">F2 AVLOD</span>
+                <h3>Ajralish qonuni</h3>
+                <p>F1 avlodidagi geterozigotali organizmlar o'zaro chatishtirilganda, F2 avlodda belgilar ma'lum nisbatda ajraladi. To'liq dominantlikda fenotipik nisbat 3:1 bo'ladi.</p>
+                <div class="formula">Aa × Aa → 1:2:1</div>
+                <button class="text-btn" data-modal="law2">Batafsil o'rganish →</button>
+            </article>
+            <article class="law-card">
+                <div class="law-number">03</div>
+                <div class="law-icon">🌳</div>
+                <span class="law-tag">DI-GIBRID</span>
+                <h3>Mustaqil kombinatsiyalanish qonuni</h3>
+                <p>Turli gen juftlarining allellari gametalarga bir-biridan mustaqil taqsimlanishi mumkin. Bu qoida genlar turli xromosomalarda joylashgan yoki bir xromosomada bir-biridan yetarlicha uzoq bo'lgan holatlarda qo'llanadi.</p>
+                <div class="formula">AaBb × AaBb → 9:3:3:1</div>
+                <button class="text-btn" data-modal="law3">Batafsil o'rganish →</button>
+            </article>
+        </div>
+        <div class="note-box">⚠ Eslatma: Mendel nisbatlari muayyan shartlarda kuzatiladi. To'liq bo'lmagan dominantlik, kodominantlik va genlarning birikkan holda irsiylanishi kabi holatlarda nisbatlar boshqacha bo'lishi mumkin.</div>
+    </section>
+
+    <section class="section dna-section" id="dna">
+        <div class="section-label">04 — MOLEKULYAR GENETIKA</div>
+        <div class="section-heading">
+            <div>
+                <h2>DNK — hayot kodi</h2>
+                <p class="section-subtitle">Organizm haqidagi biologik axborotning molekulyar asosi.</p>
+            </div>
+            <span class="heading-decoration">04</span>
+        </div>
+        <div class="dna-layout">
+            <div class="dna-illustration">
+                <div class="dna-big">🧬</div>
+                <div class="dna-label label-1">A — T</div>
+                <div class="dna-label label-2">G — C</div>
+                <div class="dna-label label-3">T — A</div>
+            </div>
+            <div class="dna-info">
+                <h3>DNK nima?</h3>
+                <p>Dezoksiribonuklein kislota (DNK) — ko'plab tirik organizmlarda irsiy axborotni saqlaydigan molekula. U ikki zanjirdan tashkil topgan qo'sh spiral tuzilishga ega.</p>
+                <div class="base-list">
+                    <div><b class="base-a">A</b><span><strong>Adenin</strong><small>Timin bilan juftlashadi</small></span></div>
+                    <div><b class="base-t">T</b><span><strong>Timin</strong><small>Adenin bilan juftlashadi</small></span></div>
+                    <div><b class="base-g">G</b><span><strong>Guanin</strong><small>Sitozin bilan juftlashadi</small></span></div>
+                    <div><b class="base-c">C</b><span><strong>Sitozin</strong><small>Guanin bilan juftlashadi</small></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="info-grid">
+            <article class="info-card"><span>🧬</span><h3>Gen</h3><p>DNKning ma'lum bir funksional mahsulotni kodlaydigan qismi.</p></article>
+            <article class="info-card"><span>🧵</span><h3>Xromosoma</h3><p>DNK va oqsillardan tashkil topgan, genetik axborotni tashuvchi tuzilma.</p></article>
+            <article class="info-card"><span>🔗</span><h3>Genom</h3><p>Organizmning to'liq genetik materiali majmuasi.</p></article>
+            <article class="info-card"><span>⚡</span><h3>Mutatsiya</h3><p>Genetik materialdagi barqaror o'zgarish.</p></article>
+        </div>
+    </section>
+
+    <section class="section lab-section" id="lab">
+        <div class="section-label">05 — INTERAKTIV LABORATORIYA</div>
+        <h2>O'z genetik tajribangizni o'tkazing</h2>
+        <p class="section-subtitle">Ota-ona genotiplarini tanlang va ehtimoliy avlod natijalarini ko'ring.</p>
+
+        <div class="lab-container">
+            <div class="lab-controls">
+                <div class="parent-control">
+                    <span class="parent-icon">🌱</span>
+                    <h3>1-ota-ona</h3>
+                    <label for="parent1">Genotipni tanlang</label>
+                    <select id="parent1">
+                        <option value="AA">AA — Dominant gomozigota</option>
+                        <option value="Aa" selected>Aa — Geterozigota</option>
+                        <option value="aa">aa — Retsessiv gomozigota</option>
+                    </select>
+                </div>
+                <div class="cross-symbol">×</div>
+                <div class="parent-control">
+                    <span class="parent-icon">🌿</span>
+                    <h3>2-ota-ona</h3>
+                    <label for="parent2">Genotipni tanlang</label>
+                    <select id="parent2">
+                        <option value="AA">AA — Dominant gomozigota</option>
+                        <option value="Aa" selected>Aa — Geterozigota</option>
+                        <option value="aa">aa — Retsessiv gomozigota</option>
+                    </select>
+                </div>
+                <button id="crossBtn" class="btn btn-primary cross-btn">Chatishtirishni boshlash →</button>
+            </div>
+
+            <div class="lab-results">
+                <div class="results-heading"><h3>Natijalar</h3><span class="live-label">● LIVE SIMULATION</span></div>
+                <div class="punnett-wrap">
+                    <div id="punnett" class="punnett"></div>
+                </div>
+                <div id="resultSummary" class="result-summary">
+                    <p>Genotiplarni tanlang va chatishtirish tugmasini bosing.</p>
+                </div>
+                <div id="ratioResults" class="ratio-results"></div>
+            </div>
+        </div>
+        <p class="lab-note">Bu soddalashtirilgan bir genli model bo'lib, to'liq dominantlikni faraz qiladi. Insonning ko'plab belgilari bir nechta gen va muhit omillariga bog'liq.</p>
+    </section>
+
+    <section class="section concepts-section">
+        <div class="section-label">06 — MUHIM TUSHUNCHALAR</div>
+        <h2>Genetik lug'at</h2>
+        <p class="section-subtitle">Genetikani tushunish uchun bilishingiz kerak bo'lgan atamalar.</p>
+        <div class="glossary-grid">
+            <article><h3>Genotip</h3><p>Organizmning genetik tarkibi yoki o'rganilayotgan genlar bo'yicha allellar yig'indisi.</p><span>Misol: AA, Aa, aa</span></article>
+            <article><h3>Fenotip</h3><p>Genotip va muhitning o'zaro ta'siri natijasida namoyon bo'ladigan belgilar majmuasi.</p><span>Misol: gul rangi</span></article>
+            <article><h3>Dominant allel</h3><p>Geterozigota holatda ham fenotipda namoyon bo'ladigan allel.</p><span>Misol: A</span></article>
+            <article><h3>Retsessiv allel</h3><p>To'liq dominantlikda odatda faqat gomozigota holatda namoyon bo'ladigan allel.</p><span>Misol: a</span></article>
+            <article><h3>Gomozigota</h3><p>Bir genning ikki bir xil alleliga ega organizm.</p><span>AA yoki aa</span></article>
+            <article><h3>Geterozigota</h3><p>Bir genning ikki xil alleliga ega organizm.</p><span>Aa</span></article>
+            <article><h3>Gameta</h3><p>Jinsiy ko'payishda ishtirok etadigan, odatda gaploid xromosoma to'plamiga ega hujayra.</p><span>Masalan: spermatozoid</span></article>
+            <article><h3>Zigota</h3><p>Ikki gametaning qo'shilishi natijasida hosil bo'ladigan dastlabki hujayra.</p><span>Urug'langan tuxum hujayra</span></article>
+            <article><h3>Krossingover</h3><p>Meyoz jarayonida gomologik xromosomalar o'rtasida DNK qismlarining almashinuvi.</p><span>Genetik xilma-xillik</span></article>
+            <article><h3>Epistaz</h3><p>Bir genning boshqa gen ta'sirini o'zgartirishi yoki yashirishi.</p><span>Genlar o'zaro ta'siri</span></article>
+            <article><h3>Kodominantlik</h3><p>Geterozigotada ikkala allel mahsuloti ham namoyon bo'lishi.</p><span>AB qon guruhi</span></article>
+            <article><h3>Mutatsiya</h3><p>Genetik material ketma-ketligi yoki tuzilishidagi o'zgarish.</p><span>Genetik o'zgarish</span></article>
+        </div>
+    </section>
+
+    <section class="section applications-section">
+        <div class="section-label">07 — GENETIKANING AMALIY AHAMIYATI</div>
+        <h2>Genetika hayotimizda</h2>
+        <p class="section-subtitle">Bu fan bugungi dunyoning ko'plab sohalarida muhim o'rin tutadi.</p>
+        <div class="application-grid">
+            <article class="application-card"><div>🏥</div><h3>Tibbiyot</h3><p>Irsiy kasalliklarni o'rganish, tashxislash va ayrim davolash usullarini ishlab chiqishda yordam beradi.</p></article>
+            <article class="application-card"><div>🌾</div><h3>Qishloq xo'jaligi</h3><p>Hosildor, kasalliklarga chidamli o'simlik navlari va hayvon zotlarini yaratishda qo'llanadi.</p></article>
+            <article class="application-card"><div>🔬</div><h3>Biotexnologiya</h3><p>Genetik muhandislik, biotibbiy tadqiqotlar va biologik mahsulotlar yaratishda ishlatiladi.</p></article>
+            <article class="application-card"><div>🕵️</div><h3>Sud ekspertizasi</h3><p>DNK tahlili biologik namunalarni solishtirish va shaxsni aniqlashga yordam beradi.</p></article>
+            <article class="application-card"><div>🌍</div><h3>Evolyutsiya</h3><p>Populyatsiyalardagi irsiy farqlar va evolyutsion jarayonlarni tushunishga xizmat qiladi.</p></article>
+            <article class="application-card"><div>🧠</div><h3>Ilmiy tadqiqotlar</h3><p>Genlar, hujayralar va tirik organizmlarning ishlash mexanizmlarini o'rganadi.</p></article>
+        </div>
+    </section>
+
+    <section class="section facts-section">
+        <div class="section-label">08 — BILASIZMI?</div>
+        <h2>Genetika olamidan qiziqarli faktlar</h2>
+        <div class="facts-grid">
+            <article><span>01</span><h3>Inson xromosomalari</h3><p>Odatda inson somatik hujayralarida 46 ta xromosoma, ya'ni 23 juft bo'ladi.</p></article>
+            <article><span>02</span><h3>DNK uzunligi</h3><p>Bitta inson somatik hujayrasidagi DNK to'liq yoyilsa, taxminan 2 metrga yaqin bo'lishi mumkin.</p></article>
+            <article><span>03</span><h3>Mitoxondrial DNK</h3><p>Mitoxondriyalarda yadro DNKsidan alohida kichik genetik material mavjud.</p></article>
+            <article><span>04</span><h3>Genom loyihasi</h3><p>Inson genomi loyihasi genom haqidagi bilimlarni keskin kengaytirdi.</p></article>
+        </div>
+    </section>
+
+    <section class="section quiz-section" id="quiz">
+        <div class="section-label">09 — BILIMINGIZNI SINANG</div>
+        <h2>Genetika bo'yicha test</h2>
+        <p class="section-subtitle">Bilimingizni tekshiring va natijangizni aniqlang.</p>
+        <div class="quiz-box">
+            <div class="quiz-top">
+                <span id="questionCounter">SAVOL 1 / 8</span>
+                <span id="scoreLabel">BALL: 0</span>
+            </div>
+            <div class="quiz-progress"><div id="quizProgress"></div></div>
+            <h3 id="questionText"></h3>
+            <div id="answers" class="answers"></div>
+            <div id="quizFeedback" class="quiz-feedback"></div>
+            <button id="nextQuestion" class="btn btn-primary" disabled>Keyingi savol →</button>
+        </div>
+    </section>
+
+    <section class="section resources-section">
+        <div class="section-label">10 — QO'SHIMCHA O'RGANISH</div>
+        <h2>Bilimingizni yanada kengaytiring</h2>
+        <div class="resource-grid">
+            <a href="https://www.genome.gov/" target="_blank" rel="noopener"><span>🧬</span><div><h3>Genome.gov</h3><p>Genomika va inson genomi haqida ilmiy ma'lumotlar.</p></div><b>↗</b></a>
+            <a href="https://www.nature.com/subjects/genetics" target="_blank" rel="noopener"><span>🔬</span><div><h3>Nature Genetics</h3><p>Genetika bo'yicha ilmiy maqolalar va tadqiqotlar.</p></div><b>↗</b></a>
+            <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" rel="noopener"><span>📚</span><div><h3>NCBI</h3><p>Biologiya va tibbiyotga oid ilmiy ma'lumotlar bazasi.</p></div><b>↗</b></a>
+        </div>
+    </section>
+
+    <section class="final-cta">
+        <span>🧬</span>
+        <h2>Ilm bilan kelajakni kashf eting.</h2>
+        <p>Genetika — hayotning eng ajoyib hikoyalaridan biri.</p>
+        <a href="#home" class="btn btn-primary">Bosh sahifaga qaytish ↑</a>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="#home" class="logo"><span>🧬</span> GENET<span class="accent">ICA</span></a>
+    <p>Genetika olamini o'rganish uchun interaktiv ta'lim platformasi.</p>
+    <span>© 2026 GENETICA. Ta'lim maqsadida yaratilgan.</span>
+</footer>
+
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <button class="modal-close" id="modalClose">✕</button>
+        <span class="modal-icon">🧬</span>
+        <h2 id="modalTitle"></h2>
+        <div id="modalText"></div>
+    </div>
+</div>
+
+<button class="top-btn" id="topBtn" aria-label="Yuqoriga">↑</button>
+
+<script src="index.js"></script>
+</body>
+</html>
